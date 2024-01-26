@@ -1,0 +1,159 @@
+
+.navBarr{
+ 
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.lesantImage{
+height: 300px;
+width:fit-content ;
+background-color: #EAE0D5;
+
+}
+
+.lesant{
+
+    background-color: #EAE0D5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.middleBacround{
+     /* The image used */
+  background-image: url("./pictures/marinosMeSuvla.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caruselImageH3{
+    display: flex;
+    justify-content: center ;
+}
+
+.caruselImage{
+    height: 250px;
+  
+}
+
+.foodMenu{
+    width: 400px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.menuContainer{
+margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #5E503F;
+padding-bottom: 30px;
+}
+
+/* menu style */
+.menuMap{    
+    display: flex;
+    /* prepi na mbi sto responsive gia pio megala tuto */
+    font-size: x-large;
+    text-align: left;
+    font-style: serif;
+    color: white;
+}
+
+
+.foodName{
+    width: 200px;
+    height: 80px;
+margin-top: 40px;
+}
+.FoodPrice{
+    height: 80px;
+    margin-top: 40px;
+    width: 200px;
+    text-align: end;
+}
+
+
+@media screen and (min-width: 501px) {
+   
+.caruselImage{
+    height: 300px;}
+    .lesantImage{
+        height: 350px;
+
+    }
+  }
+
+ 
+@media screen and (min-width: 800px) {
+   
+    .caruselImage{
+        height: 500px;}
+        .lesantImage{
+            height: 580px;
+
+        }
+      } 
+
+@media screen and (min-width: 1024px) {
+   
+    .caruselImage{
+        height: 700px;}
+        .lesantImage{
+            height: 750px;
+
+        }
+      } 
+
+
+ 
+@media screen and (min-width: 1525px) {
+   
+    .caruselImage{
+        height: 800px;}
+
+        .lesantImage{
+            height: 1000px;
+
+        }
+        .foodMenu{
+            width: 800px;
+            margin-top: 150px;
+            display: flex;
+            flex-direction: column;
+        
+        }
+
+
+.foodName{
+    width: 400px;
+    height: 80px;
+margin-top: 40px;
+}
+.FoodPrice{
+    height: 80px;
+    margin-top: 40px;
+    width: 400px;
+    text-align: end;
+}
+      }
+      
+
+      .foodTitle{
+        cursor: pointer;
+        text-align: center;
+        margin-bottom: 70px;
+      }
