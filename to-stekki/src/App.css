@@ -50,6 +50,7 @@
 }
 
 .foodMenu {
+    background-color:  #C6AC8F;
     width: 300px;
     display: flex;
     flex-direction: column;
