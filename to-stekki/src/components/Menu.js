@@ -178,7 +178,7 @@ const foodMenu = [
     },
     {
         foodName: "Meze for Parties",
-        price: "€8",
+        price: "€25",
         type: "Meze",
     },
 ];
