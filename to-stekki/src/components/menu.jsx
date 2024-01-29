@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { foodMenu, drinkMenu, wineMenu } from "./Menu";
-
+import MenuLogo from "../pictures/MenuLogo.png"
 
 function Menu() {
     const [list, setList] = useState({display:"none" });
@@ -36,7 +36,8 @@ function Menu() {
     return (
         <div className="menuContainer">
 
-            
+            <img className="MenuLogo" src={MenuLogo} alt="Menu Logo" />
+
             <div className="foodMenu">
 
 

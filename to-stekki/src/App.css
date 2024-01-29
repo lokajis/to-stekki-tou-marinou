@@ -51,23 +51,40 @@
 
 .foodMenu {
     width: 300px;
-    /* margin-top: 150px; */
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    margin: 5px;
+    -webkit-box-shadow: 0px 1px 72px -26px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 72px -26px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 72px -26px rgba(0,0,0,0.75);
+
 }
 
 
 .menuContainer {
     margin-top: 100px;
-    /* padding-top: 100px; */
+    padding-top: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #EAE0D5;
-    /* padding-bottom: 30px; */
-    height: 70vh; 
+    padding-bottom: 15vh;
+    height: 100%; 
 
+}
+
+.MenuLogo{
+width: 300px;
+padding-bottom: 10vh;
+
+} 
+
+.menuLogoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* menu style */
@@ -94,6 +111,35 @@
     text-align: end;
 }
 
+
+.webRevews{
+    text-align: center;
+        height: 150px;
+        width: 300px;
+    }
+
+    .ReviewsLogoContainer{
+        width: 350px;
+        margin-bottom: 10vh;
+    }
+.ReviewsLogo{
+    width: 100%;
+}
+
+.revewContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    /* height: 80%; */
+    /* background-color: #EAE0D5; */
+}
+.eatOut , .restaurantGuru, .wizguide {
+    margin: 20px 20px;
+    padding: 10px;
+}
+
 /* Display over 501px */
 @media screen and (min-width: 501px) {
 
@@ -112,9 +158,16 @@
     /* margin-top: 150px; */
     display: flex;
     flex-direction: column;
+    background-color: #C6AC8F;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
+.MenuLogo{
+    width: 350px;
+    padding-bottom: 10vh;
+}
 
 .foodName {
     width: 275px;
@@ -128,6 +181,25 @@
     width: 75px;
     text-align: end;
 }
+
+
+
+.webRevews{
+text-align: center;
+    height: 150px;
+    width: 300px;
+}
+
+.webRevews{
+    text-align: center;
+        height: 150px;
+        width: 400px;
+    }
+
+    .ReviewsLogoContainer{
+        width: 400px;
+        margin-bottom: 10vh;
+    }
 /*  */
 }
 
@@ -153,6 +225,11 @@
 }
 
 
+.MenuLogo{
+    width: 550px;
+    padding-bottom: 10vh;
+}
+
 .foodName {
     width: 400px;
     height: 80px;
@@ -165,6 +242,18 @@
     width: 100px;
     text-align: end;
 }
+
+.webRevews{
+    text-align: center;
+        height: 150px;
+        width: 500px;
+    }
+
+    .ReviewsLogoContainer{
+        width: 500px;
+        padding-top: 4vh;
+        margin-bottom: 10vh;
+    }
 /*  */
 }
 /* Display over 1024 px */
@@ -189,6 +278,11 @@
 }
 
 
+.MenuLogo{
+    width: 650px;
+    padding-bottom: 10vh;
+}
+
 .foodName {
     width: 650px;
     height: 80px;
@@ -201,25 +295,24 @@
     width: 100px;
     text-align: end;
 }
+
+.webRevews{
+    text-align: center;
+        height: 150px;
+        width: 750px;
+    }
+.wizguide{
+    height: 200px;
+}
+    .ReviewsLogoContainer{
+        width: 750px;
+      
+        margin: 20px;
+        padding: 20px;
+    }
 /*  */
 }
 
-
-.revewContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5vh;
-    height: 100%;
-    /* background-color: #EAE0D5; */
-}
-
-.webRevews{
-text-align: center;
-    height: 150px;
-    width: 300px;
-}
 
 
 
@@ -248,6 +341,11 @@ text-align: center;
 
     }
 
+    
+.MenuLogo{
+    width: 800px;
+    padding-bottom: 10vh;
+}    
 
     .foodName {
         width: 400px;
@@ -261,6 +359,21 @@ text-align: center;
         width: 400px;
         text-align: end;
     }
+
+    .webRevews{
+        text-align: center;
+            height: 150px;
+            width: 750px;
+        }
+    .wizguide{
+        height: 200px;
+    }
+        .ReviewsLogoContainer{
+            width: 750px;
+          
+            margin: 20px;
+            padding: 20px;
+        }
     /*  */
 }
 
