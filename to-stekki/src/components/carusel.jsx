@@ -22,6 +22,7 @@ export default function Carusel() {
 
   };
   return (
+    <div className="caruselBorders">
     <Slider {...settings}>
       <div>
         <h3  className="caruselImageH3"><img className="caruselImage" src={boneMeet} alt="" />
@@ -41,5 +42,6 @@ export default function Carusel() {
       </div>
      
     </Slider>
+    </div>
   );
 }

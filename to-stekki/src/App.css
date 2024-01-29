@@ -1,19 +1,18 @@
+.navBarr {
 
-.navBarr{
- 
     display: flex;
     justify-content: center;
     padding: 20px 20px;
 }
 
-.lesantImage{
-height: 300px;
-width:fit-content ;
-background-color: #EAE0D5;
+.lesantImage {
+    height: 300px;
+    width: fit-content;
+    background-color: #EAE0D5;
 
 }
 
-.lesant{
+.lesant {
 
     background-color: #EAE0D5;
     display: flex;
@@ -22,49 +21,57 @@ background-color: #EAE0D5;
 
 }
 
-.middleBacround{
-     /* The image used */
-  background-image: url("./pictures/marinosMeSuvla.jpg");
+.middleBacround {
+    /* The image used */
+    background-image: url("./pictures/marinosMeSuvla.jpg");
 
-  /* Set a specific height */
-  min-height: 100vh; 
+    /* Set a specific height */
+    min-height: 100vh;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.caruselImageH3{
-    display: flex;
-    justify-content: center ;
-}
-
-.caruselImage{
-    height: 250px;
-  
-}
-
-.foodMenu{
-    width: 400px;
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-
-.menuContainer{
-margin-top: 40px;
+.caruselImageH3 {
     display: flex;
     justify-content: center;
-    background-color: #5E503F;
-padding-bottom: 30px;
+}
+
+.caruselImage {
+    height: 250px;
+
+}
+
+.caruselBorders{
+    padding-top: 100px;
+}
+
+.foodMenu {
+    width: 300px;
+    /* margin-top: 150px; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menuContainer {
+    margin-top: 100px;
+    /* padding-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAE0D5;
+    /* padding-bottom: 30px; */
+    height: 70vh; 
+
 }
 
 /* menu style */
-.menuMap{    
+.menuMap {
     display: flex;
     /* prepi na mbi sto responsive gia pio megala tuto */
     font-size: x-large;
@@ -74,86 +81,192 @@ padding-bottom: 30px;
 }
 
 
-.foodName{
-    width: 200px;
-    height: 80px;
-margin-top: 40px;
-}
-.FoodPrice{
+.foodName {
+    width: 250px;
     height: 80px;
     margin-top: 40px;
-    width: 200px;
+}
+
+.FoodPrice {
+    height: 80px;
+    margin-top: 40px;
+    width: 50px;
     text-align: end;
 }
 
-
+/* Display over 501px */
 @media screen and (min-width: 501px) {
-   
-.caruselImage{
-    height: 300px;}
-    .lesantImage{
+
+    .caruselImage {
+        height: 300px;
+    }
+
+    .lesantImage {
         height: 350px;
 
     }
-  }
 
- 
-@media screen and (min-width: 800px) {
-   
-    .caruselImage{
-        height: 500px;}
-        .lesantImage{
-            height: 580px;
+/* food menu styleing  */
+.foodMenu {
+    width: 350px;
+    /* margin-top: 150px; */
+    display: flex;
+    flex-direction: column;
 
-        }
-      } 
-
-@media screen and (min-width: 1024px) {
-   
-    .caruselImage{
-        height: 700px;}
-        .lesantImage{
-            height: 750px;
-
-        }
-      } 
-
-
- 
-@media screen and (min-width: 1525px) {
-   
-    .caruselImage{
-        height: 800px;}
-
-        .lesantImage{
-            height: 1000px;
-
-        }
-        .foodMenu{
-            width: 800px;
-            margin-top: 150px;
-            display: flex;
-            flex-direction: column;
-        
-        }
-
-
-.foodName{
-    width: 400px;
-    height: 80px;
-margin-top: 40px;
 }
-.FoodPrice{
+
+
+.foodName {
+    width: 275px;
     height: 80px;
     margin-top: 40px;
-    width: 400px;
+}
+
+.FoodPrice {
+    height: 80px;
+    margin-top: 40px;
+    width: 75px;
     text-align: end;
 }
-      }
-      
+/*  */
+}
 
-      .foodTitle{
-        cursor: pointer;
-        text-align: center;
-        margin-bottom: 70px;
-      }
+/* Display over 800px */
+@media screen and (min-width: 800px) {
+
+    .caruselImage {
+        height: 500px;
+    }
+
+    .lesantImage {
+        height: 580px;
+
+    }
+
+/* food menu styleing  */
+.foodMenu {
+    width: 550px;
+    /* margin-top: 150px; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.foodName {
+    width: 400px;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.FoodPrice {
+    height: 80px;
+    margin-top: 40px;
+    width: 100px;
+    text-align: end;
+}
+/*  */
+}
+/* Display over 1024 px */
+@media screen and (min-width: 1024px) {
+
+    .caruselImage {
+        height: 700px;
+    }
+
+    .lesantImage {
+        height: 750px;
+
+    }
+
+/* food menu styleing  */
+.foodMenu {
+    width: 650px;
+    /* margin-top: 150px; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.foodName {
+    width: 650px;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.FoodPrice {
+    height: 80px;
+    margin-top: 40px;
+    width: 100px;
+    text-align: end;
+}
+/*  */
+}
+
+
+.revewContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    height: 100%;
+    /* background-color: #EAE0D5; */
+}
+
+.webRevews{
+text-align: center;
+    height: 150px;
+    width: 300px;
+}
+
+
+
+
+/* Display over 1525 px */
+@media screen and (min-width: 1525px) {
+/* Carusel Styling */
+    .caruselImage {
+        height: 800px;
+    }
+/* */
+
+/* Lesant styiling  */
+    .lesantImage {
+        height: 1000px;
+
+    }
+/* */
+
+/* food menu styleing  */
+    .foodMenu {
+        width: 800px;
+        /* margin-top: 150px; */
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .foodName {
+        width: 400px;
+        height: 80px;
+        margin-top: 40px;
+    }
+
+    .FoodPrice {
+        height: 80px;
+        margin-top: 40px;
+        width: 400px;
+        text-align: end;
+    }
+    /*  */
+}
+
+
+.foodTitle {
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 70px;
+}
