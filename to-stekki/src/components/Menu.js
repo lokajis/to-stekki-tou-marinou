@@ -531,7 +531,13 @@ const wineMenu = [
         size: "750ml",
     },
     {
-        wineName: "Kalamos Xynisteri Cyprus Medium Dry Santa Marina White Cyprus Medium Sweet",
+        wineName: "Kalamos Xynisteri Cyprus Medium Dry ",
+        price: "€15",
+        type: "White",
+        size: "750ml",
+    },
+    {
+        wineName: "Santa Marina White Cyprus Medium Sweet",
         price: "€15",
         type: "White",
         size: "750ml",
