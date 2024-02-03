@@ -39,10 +39,10 @@ function Menu() {
                    <img className="MenuLogo" src={MenuLogo} alt="Menu Logo" />
             </div>
 
-            <div className="foodMenu">
+            <div  onClick={handleClick} className="foodMenu">
 
 
-                <h1 onClick={handleClick} className="foodTitle">Food 🍽️</h1>
+                <h1  className="foodTitle">Food 🍽️</h1>
                 <div style={list} >
                     {foodMenu.map((foodItem, index) => {
                         return (
@@ -60,8 +60,8 @@ function Menu() {
             </div>
 
 
-            <div className="foodMenu">
-                <h1 onClick={handleClickDrinkd} className="foodTitle">Drinks 🍻</h1>
+            <div onClick={handleClickDrinkd} className="foodMenu">
+                <h1  className="foodTitle">Drinks 🍻</h1>
                 <div style={drinkList} >
                     {drinkMenu.map((drinkItem, index) => {
                         return (
@@ -78,8 +78,8 @@ function Menu() {
 
             </div>
 
-            <div className="foodMenu">
-                <h1 onClick={handleClickWine} className="foodTitle">Wine 🍾</h1>
+            <div onClick={handleClickWine} className="foodMenu">
+                <h1  className="foodTitle">Wine 🍾</h1>
                 <div style={wineList} >
                     {wineMenu.map((wineItem, index) => {
                         return (
